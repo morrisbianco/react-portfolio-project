@@ -4,7 +4,7 @@ import background2 from '../../images/progressivetracker.png'
 import background3 from '../../images/buildachar.png'
 import background4 from '../../images/workouttracker.png'
 import background5 from '../../images/weatherapp.png'
-import background6 from '../../images/password.png'
+import background6 from '../../images/resumeBuilder.png'
 
 const styles = {
   covid: {
@@ -47,7 +47,7 @@ const styles = {
     backgroundSize: "cover",
     top: 0
   },
-  password: {
+  resumeBuilder: {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${background6})`,
     height: "300px",
     width: "100%",
@@ -76,10 +76,10 @@ export default function Portfolio() {
         <div className="column is-4">
           <div className="card">
           <div className="has-text-centered title pt-4">
-            <a href="https://intense-shelf-28143.herokuapp.com/" target="_blank">Progressive Tracker</a>
+            <a href="https://rapid-resume.herokuapp.com/" target="_blank">Rapid Resume Builder</a>
             </div>
-            <div className="media-content" style={styles.budget}> </div>
-            <div className="subtitle has-text-centered"><a href="https://github.com/morrisbianco/progressive-budget-project" target="_blank">GitHub</a></div>
+            <div className="media-content" style={styles.resumeBuilder}> </div>
+            <div className="subtitle has-text-centered"><a href="https://github.com/morrisbianco/resume-builder" target="_blank">GitHub</a></div>
           </div>
         </div>
         <div className="column is-4">
@@ -112,10 +112,10 @@ export default function Portfolio() {
         <div className="column is-4">
           <div className="card">
           <div className="has-text-centered title pt-4">
-            <a href="https://morrisbianco.github.io/password-generator-project/" target="_blank">Password Generator</a>
+          <a href="https://intense-shelf-28143.herokuapp.com/" target="_blank">Progressive Tracker</a>
           </div>
-            <div className="media-content" style={styles.password}></div>
-          <div className="subtitle has-text-centered"><a href="https://github.com/morrisbianco/password-generator-project" target="_blank">GitHub</a></div>
+            <div className="media-content" style={styles.budget}></div>
+          <div className="subtitle has-text-centered"><a href="https://github.com/morrisbianco/progressive-budget-project" target="_blank">GitHub</a></div>
           </div>
         </div>
       </div>
