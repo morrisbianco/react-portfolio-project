@@ -67,7 +67,7 @@ export default function Portfolio() {
         <div className="column is-4">
           <div className="card">
             <div className="has-text-centered title pt-4">
-            <a href="https://jdogcrane.github.io/covid-and-cats/" target="_blank">Covid and Cat</a>
+            <a href="https://jdogcrane.github.io/covid-and-cats/" target="_blank">Covid and Cats</a>
               </div>
             <div className="media-content" style={styles.covid}></div>
               <div className="subtitle has-text-centered"><a href="https://github.com/morrisbianco/covid-and-cats" target="_blank">GitHub</a></div>
